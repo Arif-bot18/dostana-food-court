@@ -1,0 +1,281 @@
+{
+  "food_court": {
+    "name": "Dostana",
+    "subtitle": "Your food. Your way.",
+    "description": "Explore food from your favourite spots at Dostana.",
+    "default_table": "T12",
+    "tagline": "Multi-Vendor Food Court Ordering"
+  },
+  "vendors": [
+    {
+      "id": "shawarma-hub",
+      "name": "Shawarma Hub",
+      "category": "Shawarma & Rolls",
+      "short_desc": "Shawarma, Rolls & Fries",
+      "rating": 4.8,
+      "review_count": "1.2k+",
+      "prep_time": "10-15 min",
+      "is_active": true,
+      "badge": "Popular Spot",
+      "image": "/static/images/vendor-shawarma.jpg",
+      "banner_image": "/static/images/vendor-shawarma-banner.jpg",
+      "accent_color": "#EA580C",
+      "categories": [
+        "All",
+        "Shawarma",
+        "Rolls",
+        "Sides"
+      ],
+      "menu": [
+        {
+          "id": "sh-1",
+          "name": "Chicken Shawarma",
+          "category": "Shawarma",
+          "price": 149,
+          "is_veg": false,
+          "is_bestseller": true,
+          "description": "Slow-roasted spiced chicken wrapped in soft rumali roti with garlic toum, pickles, and crispy fries inside.",
+          "image": "/static/images/sh-1.jpg"
+        },
+        {
+          "id": "sh-2",
+          "name": "Special Chicken Shawarma",
+          "category": "Shawarma",
+          "price": 179,
+          "is_veg": false,
+          "is_bestseller": true,
+          "description": "Extra loaded juicy shredded chicken with double garlic cream, jalapeños, and melted cheese drizzle.",
+          "image": "/static/images/sh-2.jpg"
+        },
+        {
+          "id": "sh-3",
+          "name": "Chicken Roll",
+          "category": "Rolls",
+          "price": 129,
+          "is_veg": false,
+          "is_bestseller": false,
+          "description": "Smoky chicken tikka tossed with onions, capsicum, and tangy mint mayo wrapped in a flaky paratha.",
+          "image": "/static/images/sh-3.jpg"
+        },
+        {
+          "id": "sh-4",
+          "name": "Paneer Roll",
+          "category": "Rolls",
+          "price": 119,
+          "is_veg": true,
+          "is_bestseller": false,
+          "description": "Succulent spiced paneer cubes sautéed with peppers and house masala sauce in a warm toasted roll.",
+          "image": "/static/images/sh-4.jpg"
+        },
+        {
+          "id": "sh-5",
+          "name": "Loaded Shawarma",
+          "category": "Shawarma",
+          "price": 199,
+          "is_veg": false,
+          "is_bestseller": true,
+          "description": "Chef special grand platter-style shawarma packed with roasted chicken, mozzarella, peri-peri spice, and hummus.",
+          "image": "/static/images/sh-5.jpg"
+        },
+        {
+          "id": "sh-6",
+          "name": "French Fries",
+          "category": "Sides",
+          "price": 99,
+          "is_veg": true,
+          "is_bestseller": false,
+          "description": "Golden crispy potato fries seasoned with Dostana peri-peri spice dust and served with garlic mayo dip.",
+          "image": "/static/images/sh-6.jpg"
+        }
+      ],
+      "code": "SH"
+    },
+    {
+      "id": "dostana-tiffins",
+      "name": "Dostana Tiffins",
+      "category": "Dosa & Tiffins",
+      "short_desc": "Dosa, Idli & South Indian Tiffins",
+      "rating": 4.9,
+      "review_count": "2.4k+",
+      "prep_time": "8-12 min",
+      "is_active": true,
+      "badge": "Top Rated",
+      "image": "/static/images/vendor-tiffins.jpg",
+      "banner_image": "/static/images/vendor-tiffins-banner.jpg",
+      "accent_color": "#059669",
+      "categories": [
+        "All",
+        "Dosa",
+        "Idli & Vada",
+        "Combos"
+      ],
+      "menu": [
+        {
+          "id": "dt-1",
+          "name": "Plain Dosa",
+          "category": "Dosa",
+          "price": 70,
+          "is_veg": true,
+          "is_bestseller": false,
+          "description": "Golden-brown crisp fermented rice crepe served with piping hot sambar, coconut chutney, and tomato chutney.",
+          "image": "/static/images/dt-1.jpg"
+        },
+        {
+          "id": "dt-2",
+          "name": "Masala Dosa",
+          "category": "Dosa",
+          "price": 90,
+          "is_veg": true,
+          "is_bestseller": true,
+          "description": "Iconic crispy dosa smeared with butter and stuffed with tempered turmeric potato masala. Served with chutneys & sambar.",
+          "image": "/static/images/dt-2.jpg"
+        },
+        {
+          "id": "dt-3",
+          "name": "Idli",
+          "category": "Idli & Vada",
+          "price": 50,
+          "is_veg": true,
+          "is_bestseller": false,
+          "description": "Plate of 2 steamed cloud-soft rice cakes served soaked in fragrant drumstick sambar and fresh coconut dip.",
+          "image": "/static/images/dt-3.jpg"
+        },
+        {
+          "id": "dt-4",
+          "name": "Vada",
+          "category": "Idli & Vada",
+          "price": 60,
+          "is_veg": true,
+          "is_bestseller": false,
+          "description": "Plate of 2 crispy golden medu vadas made with spiced urad dal, curry leaves, and ginger. Served with sambar.",
+          "image": "/static/images/dt-4.jpg"
+        },
+        {
+          "id": "dt-5",
+          "name": "Mysore Masala Dosa",
+          "category": "Dosa",
+          "price": 110,
+          "is_veg": true,
+          "is_bestseller": true,
+          "description": "Signature crispy dosa layered with fiery red garlic chutney paste, melted butter, and spiced potato sabzi.",
+          "image": "/static/images/dt-5.jpg"
+        },
+        {
+          "id": "dt-6",
+          "name": "Idli Vada Combo",
+          "category": "Combos",
+          "price": 90,
+          "is_veg": true,
+          "is_bestseller": true,
+          "description": "The best of both worlds: 1 steamed soft idli + 1 crunchy medu vada with generous sambar and two chutneys.",
+          "image": "/static/images/dt-6.jpg"
+        }
+      ],
+      "code": "DT"
+    },
+    {
+      "id": "chai-adda",
+      "name": "Chai Adda",
+      "category": "Tea & Coffee",
+      "short_desc": "Tea, Coffee & Snacks",
+      "rating": 4.9,
+      "review_count": "3.1k+",
+      "prep_time": "5-8 min",
+      "is_active": true,
+      "badge": "Crowd Favourite",
+      "image": "/static/images/vendor-chai.jpg",
+      "banner_image": "/static/images/vendor-chai-banner.jpg",
+      "accent_color": "#B45309",
+      "categories": [
+        "All",
+        "Hot Chai",
+        "Coffee",
+        "Snacks"
+      ],
+      "menu": [
+        {
+          "id": "ca-1",
+          "name": "Cutting Chai",
+          "category": "Hot Chai",
+          "price": 20,
+          "is_veg": true,
+          "is_bestseller": true,
+          "description": "Classic Mumbai street style half-glass kadak brewed strong tea with whole milk and cardamom.",
+          "image": "/static/images/ca-1.jpg"
+        },
+        {
+          "id": "ca-2",
+          "name": "Masala Chai",
+          "category": "Hot Chai",
+          "price": 30,
+          "is_veg": true,
+          "is_bestseller": true,
+          "description": "Aromatic tea infused with hand-crushed cardamom, cloves, cinnamon, and fresh ginger.",
+          "image": "/static/images/ca-2.jpg"
+        },
+        {
+          "id": "ca-3",
+          "name": "Ginger Tea",
+          "category": "Hot Chai",
+          "price": 30,
+          "is_veg": true,
+          "is_bestseller": false,
+          "description": "Zesty and invigorating tea simmered with fresh crushed adrak, soothing and refreshing.",
+          "image": "/static/images/ca-3.jpg"
+        },
+        {
+          "id": "ca-4",
+          "name": "Coffee",
+          "category": "Coffee",
+          "price": 40,
+          "is_veg": true,
+          "is_bestseller": false,
+          "description": "South Indian style frothy filter coffee decoction whipped with creamy milk and rich aroma.",
+          "image": "/static/images/ca-4.jpg"
+        },
+        {
+          "id": "ca-5",
+          "name": "Cold Coffee",
+          "category": "Coffee",
+          "price": 80,
+          "is_veg": true,
+          "is_bestseller": true,
+          "description": "Chilled thick blended coffee with chocolate drizzle and vanilla ice cream scoop.",
+          "image": "/static/images/ca-5.jpg"
+        },
+        {
+          "id": "ca-6",
+          "name": "Samosa",
+          "category": "Snacks",
+          "price": 25,
+          "is_veg": true,
+          "is_bestseller": true,
+          "description": "Golden flaky pastry stuffed with spicy potato and peas filling. Served with sweet tamarind and green mint chutney.",
+          "image": "/static/images/ca-6.jpg"
+        }
+      ],
+      "code": "CA"
+    },
+    {
+      "id": "snacks-fast-food",
+      "name": "Quick Bites & Chaat",
+      "category": "Snacks & Fast Food",
+      "short_desc": "Mumbai pav bhaji, sev puri, crunchy loaded nachos & ice slushes",
+      "rating": 4.7,
+      "review_count": "890+",
+      "prep_time": "Coming Soon",
+      "is_active": false,
+      "badge": "Opening Soon",
+      "image": "/static/images/vendor-snacks.jpg",
+      "banner_image": "/static/images/vendor-snacks-banner.jpg",
+      "accent_color": "#D97706",
+      "categories": [
+        "All",
+        "Chaat",
+        "Bites"
+      ],
+      "menu": [],
+      "code": "SB"
+    }
+  ]
+}
